@@ -33,7 +33,7 @@ opts =
 	url	 : reqTokenURL
 	oauth :
 		"oauth_callback"  : callback
-		"callback"        : callback
+		#"callback"        : callback
 		"consumer_key"    : consumerKey
 		"consumer_secret" : consumerSecret
 
