@@ -1,0 +1,27 @@
+{
+	"name":"oauthutil",
+	"description": "A utility for generating OAuth tokens",
+	"author": {
+		"name":"David Pearson",
+		"url":"http://dpearson.me"
+	},
+	"repository": {
+		"type":"git",
+		"url":"https://github.com/dpearson/oauthutil.git"
+	},
+	"version":"0.0.1",
+	"dependencies": {
+		"open":"0.0.5",
+		"request":"2.42.0"
+	},
+	"engines": {
+		"node":"0.10.x",
+		"npm":"1.4.x"
+	},
+	"directories":{
+		"lib":"./lib"
+	},
+	"bin":{
+		"oauthutil":"./bin/oauthutil"
+	}
+}
