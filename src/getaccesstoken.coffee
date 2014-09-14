@@ -17,7 +17,7 @@ authURL = "https://api.twitter.com/oauth/authorize"
 callback = "http://localhost:1234/"
 
 if process.argv.length < 4
-	console.log "USAGE: node getaccesstoken.js CONSUMER_KEY CONSUMER_SECRET"
+	console.log "USAGE: oauthutil CONSUMER_KEY CONSUMER_SECRET"
 	return
 
 consumerKey = process.argv[2]
