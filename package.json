@@ -9,7 +9,7 @@
 		"type":"git",
 		"url":"https://github.com/dpearson/oauthutil.git"
 	},
-	"version":"0.0.1",
+	"version":"0.0.2",
 	"dependencies": {
 		"open":"0.0.5",
 		"request":"2.42.0"
